@@ -1,0 +1,218 @@
+[
+  {
+    "comments": [
+      {
+        "line": 2,
+        "value": "# here is a comments"
+      },
+      {
+        "line": 3,
+        "value": "#below is a tag for identifying of specific tests"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10092539684,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Open menu option Camera Drones by howering mouse on Electronics menu",
+        "description": "",
+        "id": "open-ebay.com;open-menu-option-camera-drones-by-howering-mouse-on-electronics-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 489657,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7286581142,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on the Home Page \"https://www.ebay.com\" of our site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.ebay.com",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchItemSteps.i_am_on_the_Home_Page_of_our_site(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216263956,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I move to the menu",
+            "match": {
+              "location": "SearchItemSteps.i_move_to_the_menu(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Menu"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Electronics"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Fashion"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2554461515,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on \"Camera Drones\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Camera Drones",
+                  "offset": 10
+                }
+              ],
+              "location": "SearchItemSteps.click_on_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2272328117,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on \"Advanced\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Advanced",
+                  "offset": 16
+                }
+              ],
+              "location": "SearchItemSteps.userClicksOnLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11317135,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should get title of the page as \"eBay Search: Advanced Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eBay Search: Advanced Search",
+                  "offset": 35
+                }
+              ],
+              "location": "SearchItemSteps.iShouldGetTitleOfThePageAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1239115179,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should go to main page \"Main Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Main Page",
+                  "offset": 26
+                }
+              ],
+              "location": "SearchItemSteps.iShouldGoToMainPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2455610212,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should go to the page as \"Smart Watches\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Smart Watches",
+                  "offset": 28
+                }
+              ],
+              "location": "SearchItemSteps.iWantToFollowThePageAs(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4307044130,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see watches has brand \"Samsung\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Samsung",
+                  "offset": 32
+                }
+              ],
+              "location": "SearchItemSteps.iShouldSeeWatchesHasBrand(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open ebay.com",
+    "description": "As a client I want to open ebay.com\r\nand navigate to Electronics menu\r\nand open Camera Drones menu option",
+    "id": "open-ebay.com",
+    "keyword": "Feature",
+    "uri": "SearchItem.feature",
+    "tags": [
+      {
+        "line": 4,
+        "name": "@first-TestCase"
+      }
+    ]
+  }
+]
